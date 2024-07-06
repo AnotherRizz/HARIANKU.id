@@ -12,7 +12,7 @@
       @foreach ($surahs as $surah)
         {{-- Card 1 --}}
         <a href="{{ route('surah.show', $surah['data']['nomor']) }}" class="flex items-center justify-center">
-            <div class="w-full  bg-slate-300 shadow-lg rounded-lg overflow-hidden text-center">
+            <div class="w-full  bg-gradient-to-r from-sky-500 to bg-purple-500 shadow-lg rounded-lg overflow-hidden text-center">
                 <div class="px-6 py-4 relative">
                     <span class="absolute left-2 top-2 px-5 py-2 rounded-full bg-slate-600 text-slate-300 text-xl font-bold">{{ $surah['data']['nomor'] }}</span>
                     <div class="font-bold text-xl ">{{ $surah['data']['nama'] }}</div>
