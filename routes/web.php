@@ -22,3 +22,8 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
 Route::post('/register', [AuthController::class, 'register']);
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/profileEdit', [HomeController::class, 'edit'])->name('profile.edit');
+    Route::put('/profile', [HomeController::class, 'update'])->name('profile.update');
+});

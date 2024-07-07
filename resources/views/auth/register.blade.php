@@ -42,6 +42,11 @@
                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500">
                </div>
             </div>
+            <div class="mb-4">
+               <a href="/login">
+               <p class=" text-sm text-purple-500">sudah punya akun?</p>
+               </a>
+            </div>
            
             <button type="submit"
                 class="w-full bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2">
