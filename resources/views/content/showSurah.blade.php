@@ -4,10 +4,10 @@
 
 @section('content')
     <div class="max-w-7xl mx-auto px-4 py-6">
-        <div class="bg-teal-500 shadow-lg rounded-lg overflow-hidden text-center mb-6">
+        <div class="bg-gradient-to-r from-sky-500 to bg-purple-500 shadow-lg rounded-lg overflow-hidden text-center mb-6">
             <div class="px-6 py-4 relative">
                 <span class="absolute left-2 top-2 text-white text-3xl font-bold">{{ $surah['nomor'] }}</span>
-                <div class="font-extrabold text-2xl mb-2">{{ $surah['namaLatin'] }} ({{ $surah['nama'] }})</div>
+                <div class="font-extrabold text-white text-2xl mb-2">{{ $surah['namaLatin'] }} ({{ $surah['nama'] }})</div>
                 <p class="text-sm font-bold text-slate-600">{{ $surah['arti'] }}</p>
                 <p class="text-sm font-bold text-slate-600">{{ $surah['jumlahAyat'] }} ayat</p>
                 <p class="text-sm font-bold text-slate-600">{{ $surah['tempatTurun'] }}</p>
